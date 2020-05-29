@@ -3,14 +3,15 @@
   <span class="spacer"></span>
 
   <button>
-    <mat-icon class="example-icon" aria-hidden="false" aria-label="menu icon">linkedin</mat-icon>
+    <mat-icon class="example-icon" aria-hidden="false" aria-label="menu icon">menu</mat-icon>
   </button>
 
 </mat-toolbar>
-<mat-tab-group animationDuration="0ms">
-  <mat-tab label="First">Content 1</mat-tab>
-  <mat-tab label="Second">Content 2</mat-tab>
-  <mat-tab label="Third">Content 3</mat-tab>
+
+<mat-tab-group mat-align-tabs="center" animationDuration="0ms">
+  <mat-tab label="For You"></mat-tab>
+  <mat-tab label="Trending"></mat-tab>
+  <mat-tab label="News"></mat-tab>
 </mat-tab-group>
 
 <router-outlet></router-outlet>
